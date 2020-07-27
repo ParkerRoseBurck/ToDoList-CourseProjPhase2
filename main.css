@@ -1,0 +1,93 @@
+html{
+    height:100%;
+}
+
+h1{
+    text-align:center;
+    width: 50%;
+}
+body{
+    height:90%;
+    font-family: 'Montserrat', sans-serif;
+}
+div.mainDiv{
+    width:90%;
+    height:100%;
+    margin-left:5%;
+        
+}
+div.list{
+    background-color: #260943;
+    border-radius: 20px;
+    width:45%;
+    margin-right:5%;
+    overflow: hidden;
+    min-height: 50%;
+    float:left;
+}
+#newInput{
+    margin-left:35%;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+
+ul{
+    margin-left:20%;
+    padding:0px;
+    padding-bottom:2em;
+}
+
+li{
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 1em;
+    height:1.5em;
+    color:white;
+}
+li input, li button{
+    margin-left:1em;
+    margin-right:1em;
+    float:left;
+}
+
+.delete{
+    float:left;
+}
+
+li p{
+    width:50%;
+    margin:0px!important;
+    float: left;
+}
+
+.img-parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 5%;
+    float:right;
+    width: 20%;
+}
+
+.clock-face{
+    position:relative;
+    top:0;
+    left:0;
+
+}
+.clock-hands{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#weather{
+    width:30%;
+    float: right;
+    
+}
+
+#description{
+    padding-top: 5%;
+}
